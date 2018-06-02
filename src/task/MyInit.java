@@ -1,17 +1,17 @@
 package task;
 
 public class MyInit {
-    private int[] arr;
+    private int[] array;
     {
-        arr = new int[10];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i]= (int) (100 * Math.random());
+        array = new int[10];
+        for (int i = 0; i < array.length; i++) {
+            array[i]= (int) (100 * Math.random());
         }
     }
     public void printArray(){
-        for (int i = 0; i < arr.length-1; i++) {
-            System.out.print(arr[i]+",");
+        for (int i = 0; i < array.length-1; i++) {
+            System.out.print(array[i]+",");
         }
-        System.out.print(arr[arr.length-1]);
+        System.out.print(array[array.length-1]);
     }
 }
